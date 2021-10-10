@@ -6,7 +6,7 @@
   
 using namespace std; 
   
-// This class represents a directed graph using 
+// This class represents a directed graph using ok friend
 // adjacency list representation 
 class Graph 
 { 
