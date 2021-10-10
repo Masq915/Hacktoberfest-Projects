@@ -36,7 +36,7 @@ void Graph::addEdge(int v, int w)
     adj[v].push_back(w); // Add w to v’s list. 
 } 
   
-void Graph::BFS(int s) 
+foid Graph::BFS(int s) 
 { 
     // Mark all the vertices as not visited 
     bool *visited = new bool[V]; 
