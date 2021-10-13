@@ -2,7 +2,7 @@
 using namespace std; 
   
 /* A binary tree node has data, pointer to left child 
-and a pointer to right child */
+and a pointer to right child.*/
 struct Node 
 { 
     int data; 
@@ -28,7 +28,7 @@ void printPostorder(struct Node* node)
     printPostorder(node->right); 
   
     // now deal with the node 
-    cout << node->data << " "; 
+    cout << node->data << "data: " << " "; 
 } 
   
 /* Given a binary tree, print its nodes in inorder*/
